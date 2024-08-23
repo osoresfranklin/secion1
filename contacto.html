@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/css3.css">
+</head>
+<header>
+    <h1>Contacto - Autos Deportivos</h1>
+</header>
+
+<body>
+    <form action="/submit" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje sobre autos deportivos" required></textarea>
+
+        <label for="favorite-car">¿Cuál es tu auto deportivo favorito?</label>
+        <input type="text" id="favorite-car" name="favorite-car" placeholder="Ejemplo: Ferrari 488 GTB" required>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <footer>
+        <p>&copy;2024 Mi sitio web de Autos Deportivos</p>
+    </footer>
+</body>
+
+</html>
